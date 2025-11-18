@@ -1,7 +1,5 @@
 # Personal Website (GitHub Pages)
 
-This directory holds a static site that mirrors the clean two-column layout of [qibinhang.github.io](https://qibinhang.github.io/). The text is already populated with highlights from "王仲池简历1110", so you can deploy it as-is or continue tailoring it.
-
 ## Deploying to GitHub Pages
 
 1. **Create the repository** - On GitHub, create `your-github-username.github.io` (it must match your username exactly).
