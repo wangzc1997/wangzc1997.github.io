@@ -394,24 +394,14 @@ a:focus {
 }
 
 .list-entry {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 12px;
-  align-items: center;
-  padding: 12px 16px;
-  border-radius: 12px;
+  padding: 16px 18px;
+  border-radius: 14px;
   background: rgba(248, 250, 253, 0.9);
   transition: transform 0.3s ease, background 0.3s ease;
 }
 
-.list-label {
-  font-weight: 600;
-  color: var(--muted);
-  min-width: 80px;
-}
-
 .list-text {
-  flex: 1;
+  display: block;
 }
 
 .list-entry:hover {
