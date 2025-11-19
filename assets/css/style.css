@@ -221,7 +221,7 @@ a:focus {
 }
 
 .section h2 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: clamp(1.8rem, 3vw, 2.4rem);
   margin: 0 0 16px;
 }
