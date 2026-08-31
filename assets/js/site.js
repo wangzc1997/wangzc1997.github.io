@@ -353,10 +353,8 @@
         }
       };
 
-      script.addEventListener("load", () => {
-        void updatePublicCounts();
-        window.setTimeout(updatePublicCounts, 12000);
-      });
+      void updatePublicCounts();
+      window.setTimeout(updatePublicCounts, 12000);
     }
 
     document.body.appendChild(script);
