@@ -44,6 +44,7 @@
         title: "News",
         d3em: `<span class="news-date">[08/2026]</span><span class="new-badge">NEW</span>Our paper <a href="https://ieeexplore.ieee.org/document/11666998" target="_blank" rel="noopener"><strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning</em></strong></a> was published as an Early Access article in <strong>IEEE Transactions on Cognitive Communications and Networking (IEEE TCCN)</strong> (CAS Tier 1 Top Journal, 2025 / JCR Q1)!`,
         demus: `<span class="news-date">[06/2026]</span>On June 18, 2026, <em>DeMuS: Learning Decoupled Matching and Scoring for Batch Zero-Shot Industrial Anomaly Detection</em> was accepted to <strong>ECCV 2026</strong> (CCF-B)!`,
+        phdDegree: `<span class="news-date">[06/2026]</span>Received my <strong>Ph.D. in Software Engineering</strong> from <strong>Beihang University</strong>!`,
         fed4fed: `<span class="news-date">[05/2026]</span>Our paper <em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models</em> was formally published in <strong>IEEE Transactions on Dependable and Secure Computing (IEEE TDSC)</strong>, Vol. 23, No. 3, 2026 (CCF-A / JCR Q1 / CAS Zone I)!`,
         fede3: `<span class="news-date">[04/2026]</span>Our paper <strong><em>Fed-e<sup>3</sup></em></strong> was formally published in <strong>Information Fusion</strong>, Vol. 128, Article 103949 (CAS Zone I / JCR Q1, five-year IF 17.9)!`,
         fedevalfairPresentation: `<span class="news-date">[10/2024]</span>Presented <em>FedEvalFair</em> at <strong>ACM Multimedia 2024</strong> in Melbourne!`,
@@ -108,7 +109,7 @@
         modeling: "National Third Prize, China Graduate Mathematical Modeling Competition",
         mcm: "International First Prize, Mathematical Contest in Modeling (MCM/ICM)",
         serviceTitle: "Service & Outreach",
-        reviewer: "Peer reviewer for ACM Multimedia, Information Fusion, and related venues",
+        reviewer: "Reviewer for leading journals and conferences, including IEEE TDSC, Information Fusion, and ACM Multimedia",
         presentations: "Delivered conference presentations including ACM Multimedia 2024 and recurring CNCC sessions",
         acm: "ACM member and co-author of the MIIT “Crowdsourced Data Annotation” textbook"
       },
@@ -159,6 +160,7 @@
         title: "动态",
         d3em: `<span class="news-date">[2026/08]</span><span class="new-badge">最新</span>我们的论文 <a href="https://ieeexplore.ieee.org/document/11666998" target="_blank" rel="noopener"><strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning</em></strong></a> 已在 <strong>IEEE Transactions on Cognitive Communications and Networking（IEEE TCCN）</strong>以 Early Access 形式在线发表（中科院一区 TOP 期刊，2025版 / JCR Q1）！`,
         demus: `<span class="news-date">[2026/06]</span>论文 <em>DeMuS: Learning Decoupled Matching and Scoring for Batch Zero-Shot Industrial Anomaly Detection</em> 于2026年6月18日被 <strong>ECCV 2026</strong> 录用（CCF-B）！`,
+        phdDegree: `<span class="news-date">[2026/06]</span>获<strong>北京航空航天大学软件工程专业工学博士学位</strong>！`,
         fed4fed: `<span class="news-date">[2026/05]</span>论文 <em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models</em> 已正式发表于 <strong>IEEE Transactions on Dependable and Secure Computing（IEEE TDSC）</strong>第23卷第3期（CCF-A / JCR Q1 / 中科院一区）！`,
         fede3: `<span class="news-date">[2026/04]</span>论文 <strong><em>Fed-e<sup>3</sup></em></strong> 已正式发表于 <strong>Information Fusion</strong>第128卷，文章号103949（中科院一区 / JCR Q1，五年影响因子17.9）！`,
         fedevalfairPresentation: `<span class="news-date">[2024/10]</span>赴澳大利亚墨尔本参加 <strong>ACM Multimedia 2024</strong> 并汇报 <em>FedEvalFair</em>！`,
@@ -222,7 +224,7 @@
         modeling: "中国研究生数学建模竞赛全国三等奖",
         mcm: "美国大学生数学建模竞赛（MCM/ICM）国际一等奖",
         serviceTitle: "学术服务与交流",
-        reviewer: "担任 ACM Multimedia、Information Fusion 等会议与期刊审稿人",
+        reviewer: "担任 IEEE TDSC、Information Fusion、ACM Multimedia 等顶级期刊与会议审稿人",
         presentations: "在 ACM Multimedia 2024、CNCC 等会议进行学术报告与交流",
         acm: "ACM 会员，工信部《众包数据标注》教材参编者"
       },
@@ -237,6 +239,7 @@
   const root = document.documentElement;
   const descriptionMeta = document.querySelector('meta[name="description"]');
   const languageButtons = document.querySelectorAll("[data-language-option]");
+  const languageStorageKey = "preferredLanguageV2";
 
   const lookup = (language, key) =>
     key.split(".").reduce((value, part) => (value && value[part] !== undefined ? value[part] : undefined), translations[language]);
@@ -282,7 +285,7 @@
 
     if (persist) {
       try {
-        localStorage.setItem("preferredLanguage", activeLanguage);
+        localStorage.setItem(languageStorageKey, activeLanguage);
       } catch (_) {
         // Language switching remains available when storage is blocked.
       }
@@ -295,14 +298,12 @@
 
   let initialLanguage = "en";
   try {
-    const savedLanguage = localStorage.getItem("preferredLanguage");
+    const savedLanguage = localStorage.getItem(languageStorageKey);
     if (savedLanguage === "en" || savedLanguage === "zh") {
       initialLanguage = savedLanguage;
-    } else if ((navigator.language || "").toLowerCase().startsWith("zh")) {
-      initialLanguage = "zh";
     }
   } catch (_) {
-    if ((navigator.language || "").toLowerCase().startsWith("zh")) initialLanguage = "zh";
+    // English remains the default when storage is unavailable.
   }
 
   applyLanguage(initialLanguage, false);

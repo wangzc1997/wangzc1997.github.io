@@ -4,7 +4,7 @@
 
 This dated version adds a Chinese/English language switch, updated 2026 publication metadata, the D³EM publication and news item, a Students section, refined education spacing, unified profile icons, the new Jinan University email address, and privacy-friendly visitor analytics.
 
-The English version uses the existing sans-serif type system. The Chinese version uses KaiTi-compatible system fonts and remembers the visitor's language preference locally.
+The site opens in English on a visitor's first visit. The Chinese version uses KaiTi-compatible system fonts, and an explicit language choice is remembered locally.
 
 ### Visitor analytics
 
