@@ -351,6 +351,7 @@ html[lang="zh-CN"] .profile-card h1 {
 
 .profile-links .icon {
   width: 22px;
+  height: 22px;
   flex: 0 0 22px;
   display: inline-grid;
   place-items: center;
@@ -358,8 +359,8 @@ html[lang="zh-CN"] .profile-card h1 {
 }
 
 .profile-links .icon svg {
-  width: 17px;
-  height: 17px;
+  width: 18px;
+  height: 18px;
   display: block;
   fill: currentColor;
 }
@@ -600,25 +601,6 @@ html[lang="zh-CN"] .section h2 {
   background: var(--accent);
 }
 
-.paper-link {
-  display: inline-block;
-  margin-left: 6px;
-  padding: 2px 8px;
-  border: 1px solid #c7d7ff;
-  border-radius: 999px;
-  background: #fff;
-  font-size: 0.78rem;
-  font-style: normal;
-  font-weight: 750;
-  white-space: nowrap;
-}
-
-.paper-link:hover,
-.paper-link:focus-visible {
-  text-decoration: none;
-  background: var(--accent-soft);
-}
-
 .students-section {
   overflow: hidden;
   background:
@@ -714,13 +696,22 @@ html[lang="zh-CN"] .section h2 {
   font-size: 1.18rem;
 }
 
-.student-name-en {
+.student-name-secondary {
   display: block;
   margin-top: 2px;
   color: #7b879b;
-  font-family: var(--sans);
   font-size: 0.72em;
   font-weight: 600;
+}
+
+.student-name-secondary[lang="zh-CN"] {
+  font-family: var(--kaiti);
+  letter-spacing: 0.04em;
+}
+
+.student-name-secondary[lang="en"] {
+  font-family: var(--sans);
+  letter-spacing: 0;
 }
 
 .student-info p {
@@ -842,10 +833,13 @@ html[lang="zh-CN"] .section h2 {
 }
 
 .visitor-stat {
-  padding: 5px 10px;
+  max-width: 100%;
+  padding: 7px 12px;
   display: inline-flex;
   align-items: center;
-  gap: 7px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9px;
   border: 1px solid #dfe7f2;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.72);
@@ -863,9 +857,27 @@ html[lang="zh-CN"] .section h2 {
   box-shadow: 0 0 0 3px rgba(66, 166, 111, 0.12);
 }
 
+.visitor-metric {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.visitor-divider {
+  width: 1px;
+  height: 14px;
+  background: #d6dfec;
+}
+
 .visitor-stat strong {
   color: #3b4b63;
   font-variant-numeric: tabular-nums;
+}
+
+.visitor-source {
+  color: #8b97a9;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
 }
 
 @media (max-width: 1180px) {
@@ -1094,7 +1106,7 @@ html[lang="zh-CN"] .section h2 {
     flex-direction: column;
   }
 
-  .student-name-en {
+  .student-name-secondary {
     display: inline;
     margin: 0 0 0 5px;
   }

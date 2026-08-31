@@ -42,10 +42,10 @@
       news: {
         eyebrow: "LATEST UPDATES",
         title: "News",
-        d3em: `<span class="news-date">[08/2026]</span><span class="new-badge">NEW</span>Our paper <a href="https://ieeexplore.ieee.org/document/11666998" target="_blank" rel="noopener"><strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning</em></strong></a> was published as an Early Access article in <strong>IEEE Transactions on Cognitive Communications and Networking (IEEE TCCN)</strong>!`,
+        d3em: `<span class="news-date">[08/2026]</span><span class="new-badge">NEW</span>Our paper <a href="https://ieeexplore.ieee.org/document/11666998" target="_blank" rel="noopener"><strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning</em></strong></a> was published as an Early Access article in <strong>IEEE Transactions on Cognitive Communications and Networking (IEEE TCCN)</strong> (CAS Tier 1 Top Journal, 2025 / JCR Q1)!`,
         demus: `<span class="news-date">[06/2026]</span>On June 18, 2026, <em>DeMuS: Learning Decoupled Matching and Scoring for Batch Zero-Shot Industrial Anomaly Detection</em> was accepted to <strong>ECCV 2026</strong> (CCF-B)!`,
-        fed4fed: `<span class="news-date">[12/2025]</span>Our paper <em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models</em> was accepted to <strong>IEEE Transactions on Dependable and Secure Computing (IEEE TDSC)</strong> (CCF-A / JCR Q1 / CAS Zone I)!`,
-        fede3: `<span class="news-date">[11/2025]</span>Our paper <strong><em>Fed-e<sup>3</sup></em></strong> was published in <strong>Information Fusion</strong> (CAS Zone I / JCR Q1, five-year IF 17.9)!`,
+        fed4fed: `<span class="news-date">[05/2026]</span>Our paper <em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models</em> was formally published in <strong>IEEE Transactions on Dependable and Secure Computing (IEEE TDSC)</strong>, Vol. 23, No. 3, 2026 (CCF-A / JCR Q1 / CAS Zone I)!`,
+        fede3: `<span class="news-date">[04/2026]</span>Our paper <strong><em>Fed-e<sup>3</sup></em></strong> was formally published in <strong>Information Fusion</strong>, Vol. 128, Article 103949 (CAS Zone I / JCR Q1, five-year IF 17.9)!`,
         fedevalfairPresentation: `<span class="news-date">[10/2024]</span>Presented <em>FedEvalFair</em> at <strong>ACM Multimedia 2024</strong> in Melbourne!`,
         iioT: `<span class="news-date">[09/2024]</span>Began leading the large-model industrial IoT analytics sub-project within the National Key R&amp;D Program!`,
         fedevalfairAccepted: `<span class="news-date">[07/2024]</span>Our paper <strong><em>FedEvalFair</em></strong> was accepted to <strong>ACM Multimedia 2024</strong> (CCF-A / CAAI-A)!`,
@@ -58,10 +58,10 @@
       publications: {
         eyebrow: "SELECTED RESEARCH OUTPUT",
         title: "Selected Publications",
-        d3em: `<strong>Zhongchi Wang</strong>, Zhengyang Zhao, Hailong Sun. <strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning.</em></strong> IEEE Transactions on Cognitive Communications and Networking (TCCN), Early Access, 2026. <a class="paper-link" href="https://doi.org/10.1109/TCCN.2026.3727464" target="_blank" rel="noopener">DOI ↗</a>`,
+        d3em: `<strong>Zhongchi Wang</strong>, Zhengyang Zhao, Hailong Sun. <strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning.</em></strong> IEEE Transactions on Cognitive Communications and Networking (TCCN), Early Access, 2026. (CAS Tier 1 Top Journal, 2025 / JCR Q1).`,
         demus: `Zhengyang Zhao, Hailong Sun*, Binhang Qi, Hongrui Yu, <strong>Zhongchi Wang</strong>, Hang Xu. <strong><em>DeMuS: Learning Decoupled Matching and Scoring for Batch Zero-Shot Industrial Anomaly Detection.</em></strong> European Conference on Computer Vision (ECCV), accepted, 2026. (CCF-B)`,
-        fed4fed: `<strong>Zhongchi Wang</strong>, Hailong Sun, Zhengyang Zhao, Li Duan, Wei Ni, Xiang Gao. <strong><em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models.</em></strong> IEEE Transactions on Dependable and Secure Computing (TDSC), accepted, 2025. (CCF-A / JCR Q1 / CAS Zone I)`,
-        fede3: `<strong>Zhongchi Wang</strong>, Hailong Sun, Zhengyang Zhao. <strong><em>Fed-e<sup>3</sup>: A Tri-level Federated Fairness Evaluation Framework with Statistical Guarantees and Privacy Preservation.</em></strong> Information Fusion, Nov 2025, Vol. 128, Article 103949 (CAS Zone I / JCR Q1, five-year IF 17.9).`,
+        fed4fed: `<strong>Zhongchi Wang</strong>, Hailong Sun, Zhengyang Zhao, Li Duan, Wei Ni, Xiang Gao. <strong><em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models.</em></strong> IEEE Transactions on Dependable and Secure Computing (TDSC), Vol. 23, No. 3, pp. 5029&ndash;5042, May&ndash;June 2026. (CCF-A / JCR Q1 / CAS Zone I).`,
+        fede3: `<strong>Zhongchi Wang</strong>, Hailong Sun, Zhengyang Zhao. <strong><em>Fed-e<sup>3</sup>: A Tri-level Federated Fairness Evaluation Framework with Statistical Guarantees and Privacy Preservation.</em></strong> Information Fusion, Vol. 128, Article 103949, April 2026. (CAS Zone I / JCR Q1, five-year IF 17.9).`,
         fedevalfair: `<strong>Zhongchi Wang*</strong>, H. Sun, Z. Zhao. <strong><em>FedEvalFair: A Privacy-Preserving and Statistically Grounded Federated Fairness Evaluation Framework.</em></strong> ACM Multimedia 2024 (CCF-A / CAAI-A).`,
         vem: `M. Li, J. Zhao, <strong>Zhongchi Wang</strong>, et al. <strong><em>Conservative Conforming and Nonconforming VEMs for Fourth Order Nonlinear Schr&ouml;dinger Equations with Trapped Term.</em></strong> Journal of Computational Mathematics, 2024, 42(2): 454&ndash;499. (SCI)`,
         superconvergence: `<strong>Zhongchi Wang*</strong>, M. Li. <strong><em>Superconvergence Analysis of Anisotropic Finite Element Method for the Time Fractional Substantial Diffusion Equation with Smooth and Nonsmooth Solutions.</em></strong> Mathematical Methods in the Applied Sciences, 2023, 46(5): 5545&ndash;5560. (SCI, JCR Q1)`,
@@ -74,6 +74,8 @@
         eyebrow: "MENTORING",
         title: "Students",
         note: "Learning, exploring, and growing together.",
+        xuName: `Xu Hao <span class="student-name-secondary" lang="zh-CN">徐昊</span>`,
+        kongName: `Kong Xinrui <span class="student-name-secondary" lang="zh-CN">孔欣睿</span>`,
         xuRole: "M.S. Student · 2026 Cohort",
         kongRole: "Undergraduate Student · 2025 Cohort"
       },
@@ -91,8 +93,8 @@
       interests: {
         eyebrow: "BEYOND RESEARCH",
         title: "Personal Interests",
-        web3:
-          "Beyond the lab, I explore the future of decentralized technologies—Web3 ecosystems, smart contracts, and blockchain governance spark my curiosity for how trust and data move through new economic systems.",
+        openModels:
+          "Beyond my core research, I closely follow and actively embrace open-source large language models and the wider open AI ecosystem—from model architectures and inference systems to agentic toolchains. I am especially interested in how open collaboration can bring together global innovation, broaden access to advanced intelligence, and help shape an AI future that is more inclusive, transparent, controllable, and trustworthy.",
         wellness:
           "I also keep a steady training routine: practicing Baduanjin and tai chi as part of a “Hundred-day Foundation” wellness plan, and swimming several times a week to stay balanced and energized for research."
       },
@@ -112,7 +114,8 @@
       },
       footer: {
         copyright: `© <span id="year"></span> Zhongchi Wang. All rights reserved.`,
-        visits: "Visits since August 31, 2026"
+        totalVisits: "Visits since August 31, 2026",
+        recentVisits: "Past month"
       }
     },
     zh: {
@@ -154,10 +157,10 @@
       news: {
         eyebrow: "最新动态",
         title: "动态",
-        d3em: `<span class="news-date">[2026/08]</span><span class="new-badge">最新</span>我们的论文 <a href="https://ieeexplore.ieee.org/document/11666998" target="_blank" rel="noopener"><strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning</em></strong></a> 已在 <strong>IEEE Transactions on Cognitive Communications and Networking（IEEE TCCN）</strong>以 Early Access 形式在线发表！`,
+        d3em: `<span class="news-date">[2026/08]</span><span class="new-badge">最新</span>我们的论文 <a href="https://ieeexplore.ieee.org/document/11666998" target="_blank" rel="noopener"><strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning</em></strong></a> 已在 <strong>IEEE Transactions on Cognitive Communications and Networking（IEEE TCCN）</strong>以 Early Access 形式在线发表（中科院一区 TOP 期刊，2025版 / JCR Q1）！`,
         demus: `<span class="news-date">[2026/06]</span>论文 <em>DeMuS: Learning Decoupled Matching and Scoring for Batch Zero-Shot Industrial Anomaly Detection</em> 于2026年6月18日被 <strong>ECCV 2026</strong> 录用（CCF-B）！`,
-        fed4fed: `<span class="news-date">[2025/12]</span>论文 <em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models</em> 被 <strong>IEEE Transactions on Dependable and Secure Computing（IEEE TDSC）</strong>录用（CCF-A / JCR Q1 / 中科院一区）！`,
-        fede3: `<span class="news-date">[2025/11]</span>论文 <strong><em>Fed-e<sup>3</sup></em></strong> 发表于 <strong>Information Fusion</strong>（中科院一区 / JCR Q1，五年影响因子17.9）！`,
+        fed4fed: `<span class="news-date">[2026/05]</span>论文 <em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models</em> 已正式发表于 <strong>IEEE Transactions on Dependable and Secure Computing（IEEE TDSC）</strong>第23卷第3期（CCF-A / JCR Q1 / 中科院一区）！`,
+        fede3: `<span class="news-date">[2026/04]</span>论文 <strong><em>Fed-e<sup>3</sup></em></strong> 已正式发表于 <strong>Information Fusion</strong>第128卷，文章号103949（中科院一区 / JCR Q1，五年影响因子17.9）！`,
         fedevalfairPresentation: `<span class="news-date">[2024/10]</span>赴澳大利亚墨尔本参加 <strong>ACM Multimedia 2024</strong> 并汇报 <em>FedEvalFair</em>！`,
         iioT: `<span class="news-date">[2024/09]</span>开始负责国家重点研发计划中大模型驱动的工业物联网数据分析子课题！`,
         fedevalfairAccepted: `<span class="news-date">[2024/07]</span>论文 <strong><em>FedEvalFair</em></strong> 被 <strong>ACM Multimedia 2024</strong> 录用（CCF-A / CAAI-A）！`,
@@ -170,10 +173,10 @@
       publications: {
         eyebrow: "代表性研究成果",
         title: "代表性论文",
-        d3em: `<strong>Zhongchi Wang</strong>, Zhengyang Zhao, Hailong Sun. <strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning.</em></strong> IEEE Transactions on Cognitive Communications and Networking（TCCN），Early Access，2026。<a class="paper-link" href="https://doi.org/10.1109/TCCN.2026.3727464" target="_blank" rel="noopener">DOI ↗</a>`,
+        d3em: `<strong>Zhongchi Wang</strong>, Zhengyang Zhao, Hailong Sun. <strong><em>D<sup>3</sup>EM: A Dual-layer Dynamic Debiasing Evaluation Mechanism for Client Contribution in Federated Learning.</em></strong> IEEE Transactions on Cognitive Communications and Networking（TCCN），Early Access，2026。（中科院一区 TOP 期刊，2025版 / JCR Q1）`,
         demus: `Zhengyang Zhao, Hailong Sun*, Binhang Qi, Hongrui Yu, <strong>Zhongchi Wang</strong>, Hang Xu. <strong><em>DeMuS: Learning Decoupled Matching and Scoring for Batch Zero-Shot Industrial Anomaly Detection.</em></strong> European Conference on Computer Vision（ECCV），已录用，2026。（CCF-B）`,
-        fed4fed: `<strong>Zhongchi Wang</strong>, Hailong Sun, Zhengyang Zhao, Li Duan, Wei Ni, Xiang Gao. <strong><em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models.</em></strong> IEEE Transactions on Dependable and Secure Computing（TDSC），已录用，2025。（CCF-A / JCR Q1 / 中科院一区）`,
-        fede3: `<strong>Zhongchi Wang</strong>, Hailong Sun, Zhengyang Zhao. <strong><em>Fed-e<sup>3</sup>: A Tri-level Federated Fairness Evaluation Framework with Statistical Guarantees and Privacy Preservation.</em></strong> Information Fusion，2025年11月，第128卷，文章号103949（中科院一区 / JCR Q1，五年影响因子17.9）。`,
+        fed4fed: `<strong>Zhongchi Wang</strong>, Hailong Sun, Zhengyang Zhao, Li Duan, Wei Ni, Xiang Gao. <strong><em>Fed4Fed: A Privacy-Preserving Federated Statistical Approach for Evaluating Federated Learning Models.</em></strong> IEEE Transactions on Dependable and Secure Computing（TDSC），第23卷第3期，5029&ndash;5042页，2026年5&ndash;6月。（CCF-A / JCR Q1 / 中科院一区）`,
+        fede3: `<strong>Zhongchi Wang</strong>, Hailong Sun, Zhengyang Zhao. <strong><em>Fed-e<sup>3</sup>: A Tri-level Federated Fairness Evaluation Framework with Statistical Guarantees and Privacy Preservation.</em></strong> Information Fusion，第128卷，文章号103949，2026年4月。（中科院一区 / JCR Q1，五年影响因子17.9）`,
         fedevalfair: `<strong>Zhongchi Wang*</strong>, H. Sun, Z. Zhao. <strong><em>FedEvalFair: A Privacy-Preserving and Statistically Grounded Federated Fairness Evaluation Framework.</em></strong> ACM Multimedia 2024（CCF-A / CAAI-A）。`,
         vem: `M. Li, J. Zhao, <strong>Zhongchi Wang</strong>, et al. <strong><em>Conservative Conforming and Nonconforming VEMs for Fourth Order Nonlinear Schr&ouml;dinger Equations with Trapped Term.</em></strong> Journal of Computational Mathematics，2024，42(2)：454&ndash;499。（SCI）`,
         superconvergence: `<strong>Zhongchi Wang*</strong>, M. Li. <strong><em>Superconvergence Analysis of Anisotropic Finite Element Method for the Time Fractional Substantial Diffusion Equation with Smooth and Nonsmooth Solutions.</em></strong> Mathematical Methods in the Applied Sciences，2023，46(5)：5545&ndash;5560。（SCI，JCR Q1）`,
@@ -186,6 +189,8 @@
         eyebrow: "学生培养",
         title: "学生团队",
         note: "教学相长，共同探索与成长。",
+        xuName: `徐昊 <span class="student-name-secondary" lang="en">Xu Hao</span>`,
+        kongName: `孔欣睿 <span class="student-name-secondary" lang="en">Kong Xinrui</span>`,
         xuRole: "2026级硕士研究生",
         kongRole: "2025级本科生"
       },
@@ -202,8 +207,8 @@
       interests: {
         eyebrow: "科研之外",
         title: "个人兴趣",
-        web3:
-          "科研之外，我也关注去中心化技术的发展，包括 Web3 生态、智能合约和区块链治理，并思考信任与数据在新型经济系统中的流动方式。",
+        openModels:
+          "科研之外，我持续关注并积极拥抱开源大模型及其开放协作生态，紧跟模型架构、推理系统与智能体工具链的演进。我尤其关注开放技术如何汇聚全球创新、降低前沿智能的应用门槛，并推动人工智能走向更加普惠、透明、可控与可信的未来。",
         wellness:
           "我保持规律运动，持续练习八段锦与太极拳，并将游泳作为每周的固定安排，在身体状态与科研节奏之间保持平衡。"
       },
@@ -223,7 +228,8 @@
       },
       footer: {
         copyright: `© <span id="year"></span> 王仲池。保留所有权利。`,
-        visits: "自2026年8月31日起访问"
+        totalVisits: "自2026年8月31日起访问",
+        recentVisits: "近一个月"
       }
     }
   };
@@ -318,25 +324,38 @@
     script.integrity = "sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ";
 
     if (config.showPublicCount) {
-      script.addEventListener("load", async () => {
+      const fetchCount = async (start) => {
+        const url = new URL(`${endpoint}/counter/TOTAL.json`);
+        if (start) url.searchParams.set("start", start);
+
+        const response = await fetch(url, { mode: "cors" });
+        if (!response.ok) return null;
+
+        const data = await response.json();
+        return data && typeof data.count === "string" ? data.count : null;
+      };
+
+      const updatePublicCounts = async () => {
         try {
           const start = String(config.analyticsStart || "").trim();
-          const query = start ? `?start=${encodeURIComponent(start)}` : "";
-          const response = await fetch(`${endpoint}/counter/TOTAL.json${query}`, { mode: "cors" });
-          if (!response.ok) return;
+          const [total, recent] = await Promise.all([fetchCount(start), fetchCount("month")]);
+          if (total === null && recent === null) return;
 
-          const data = await response.json();
-          if (!data || !data.count) return;
-
-          const count = document.getElementById("visitor-count");
+          const totalCount = document.getElementById("visitor-count-total");
+          const recentCount = document.getElementById("visitor-count-recent");
           const stat = document.getElementById("visitor-stat");
-          if (count && stat) {
-            count.textContent = data.count;
-            stat.hidden = false;
-          }
+
+          if (totalCount && total !== null) totalCount.textContent = total;
+          if (recentCount && recent !== null) recentCount.textContent = recent;
+          if (stat) stat.hidden = false;
         } catch (_) {
           // Analytics must never affect the rest of the page.
         }
+      };
+
+      script.addEventListener("load", () => {
+        void updatePublicCounts();
+        window.setTimeout(updatePublicCounts, 12000);
       });
     }
 

@@ -2,20 +2,19 @@
 
 ## 2026-08-31 Version
 
-This dated version adds a Chinese/English language switch, the D³EM publication and news item, a Students section, refined education spacing, the new Jinan University email address, and a privacy-friendly visitor analytics integration.
+This dated version adds a Chinese/English language switch, updated 2026 publication metadata, the D³EM publication and news item, a Students section, refined education spacing, unified profile icons, the new Jinan University email address, and privacy-friendly visitor analytics.
 
 The English version uses the existing sans-serif type system. The Chinese version uses KaiTi-compatible system fonts and remembers the visitor's language preference locally.
 
-### Enabling visitor analytics
+### Visitor analytics
 
-The page is prepared for [GoatCounter](https://www.goatcounter.com/), but tracking remains disabled until the site owner supplies a site code:
+The live site is connected to the `zcwang` [GoatCounter](https://www.goatcounter.com/) site. Tracking runs only on `wangzc1997.github.io`; local previews do not create pageviews.
 
-1. Create a GoatCounter site for `wangzc1997.github.io`.
-2. Open `assets/js/site-config.js` and fill in `goatCounterCode` with the subdomain code only.
-3. To show the total on the homepage, enable **Allow adding visitor counts on your website** in GoatCounter settings. If this setting remains off, visits are still recorded in the private dashboard, but the footer count stays hidden.
-4. Local previews never count because analytics run only on `wangzc1997.github.io`.
+The footer displays two aggregate counts: visits since August 31, 2026, and visits in the past month. GoatCounter's public visitor-count permission must remain enabled for these totals to appear; detailed referrers, pages, locations, browsers, and time ranges stay in the private GoatCounter dashboard.
 
 If GoatCounter or a browser extension blocks the analytics request, the visitor count stays hidden and the rest of the page continues to work normally.
+
+The three contact icons use the MIT-licensed [Bootstrap Icons](https://icons.getbootstrap.com/) family for consistent sizing.
 
 ## Deploying to GitHub Pages
 
